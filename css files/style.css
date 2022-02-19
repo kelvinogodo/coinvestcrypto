@@ -1548,7 +1548,7 @@ header{
         padding-bottom: 40px;
     }
     .landpage-links{
-        width: 200px;
+        display:none;
     }
     .btn-container{
        display: none;
