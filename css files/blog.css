@@ -283,7 +283,8 @@
     }
     .head-image-container{
         width: 100%;
-        background-color: red;
+        background-image: url(../images/bg.png);
+        background-position: top;
         padding: 0px;
     }
     .blogpost-container{
