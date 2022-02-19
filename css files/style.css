@@ -24,13 +24,9 @@ header{
     position: sticky;
     top: 0;
     z-index: 200;
-    /* background-position:top ;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .logo-container{
     width: 30%;
-    /* background-color: white; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -178,7 +174,7 @@ header{
     outline: none;
     border: 1px solid #303030;
     background: white;
-    color: #ae00ff;
+    color: #0b28cc;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
@@ -503,8 +499,11 @@ header{
     font-size: inherit;
     font-family: ubuntu;
     align-self: flex-start;
+    
    }
-   
+   button.learn-more a{
+    text-decoration: none;
+   }
    button.learn-more {
     width: 12rem;
     height: auto;
@@ -830,9 +829,10 @@ header{
 .invest-card{
     width: 400px;
     height: 400px;
-    background-image: url(../images/4562472.jpg);
+    background-image: url(../images/7.jpg);
     background-color: white;
     background-repeat: no-repeat;
+    background-position: bottom;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1551,8 +1551,7 @@ header{
         width: 200px;
     }
     .btn-container{
-        margin-top: 30px;
-        flex-wrap: wrap;
+       display: none;
     }
     .welcome-text{
         width: 100%;
@@ -1561,10 +1560,12 @@ header{
     }
     .why-choose-us{
         height: auto;
+        background-color:white;
+        padding-top: 20px;
     }
     .why-text-container{
         flex-direction: column;
-        height: 50vh;
+        height: auto;
         margin-bottom: 20px;
     }
     .why-text-container img{
@@ -1573,6 +1574,7 @@ header{
     .why-text-container h1{
         font-size: 1.8rem;
         width: 80%;
+        height: auto;
     }
     .reason-card-container{
         flex-direction: column;
