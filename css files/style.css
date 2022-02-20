@@ -372,15 +372,15 @@ header{
     object-fit: contain;
 }
 .why-choose-us{
+    
     background-color:white;
     margin-bottom: 50px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: pink; */
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .why-text-container{
     width: 100%;
@@ -398,6 +398,7 @@ header{
     font-size: 4rem;
     flex-wrap: wrap;
     height: 50%;
+    background:white;
 }
 .why-text-container img{
     width: 50%;
@@ -407,7 +408,7 @@ header{
 .reason-card-container{
     height: 60%;
     width: 100%;
-    /* background-color: forestgreen; */
+    background-color: white;
     display: flex;
     margin-top: 50px;
 }
