@@ -324,6 +324,7 @@ header{
     opacity: 0;
 } */
 .btn-container{
+    margin-top:40px;
     height: 30%;
     display: flex;
     align-items: center;
