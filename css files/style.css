@@ -316,13 +316,7 @@ header{
     color: rgba(214, 193, 3, 0.876);
     font-size: 3.5rem;
 }
-/* .animation{
-    opacity: 1;
-    transition:  .5s ease-in-out;
-} */
-/* .how-does-it-work-section{
-    opacity: 0;
-} */
+
 .btn-container{
     margin-top:40px;
     height: 30%;
@@ -447,7 +441,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: red; */
+    background-color: white;
 }
 .how-it-works-text-container{
     width: 50%;
@@ -456,12 +450,13 @@ header{
     align-items: center;
     justify-content: center;
     height: 90%;
-    /* background-color: green; */
+    background:white;
 }
 .how-it-works-text-container h1{
     font-family: poppins;
     text-transform: capitalize;
     font-size: 3rem;
+    width:70%;
 }
 .how-it-works-text-container p{
     font-family: roboto;
