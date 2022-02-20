@@ -319,6 +319,7 @@ header{
 
 .btn-container{
     margin-top:40px;
+    margin-left:-5px;
     height: 30%;
     display: flex;
     align-items: center;
