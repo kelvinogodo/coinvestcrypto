@@ -372,6 +372,7 @@ header{
     object-fit: contain;
 }
 .why-choose-us{
+    background-color:white;
     margin-bottom: 50px;
     width: 100%;
     display: flex;
