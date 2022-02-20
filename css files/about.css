@@ -8,7 +8,7 @@
 .about-landpage-img{
     height:90% ;
     width: 50%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .about-section{
     height: auto;
@@ -27,19 +27,21 @@
     font-family: poppins;
     font-size: 3rem;
     text-transform: capitalize;
+    text-aling:center;
 }
 .about-section p{
     width: 55%;
     font-family: roboto;
     line-height: 25px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     opacity: .8;
     text-align: center;
     margin-top: 20px;
     margin: auto;
 }
 .our-team-section{
-    height:80vh;
+    padding-top:40px;
+    padding-bottom:40px;
     width: 90%;
     display: flex;
     align-items: center;
@@ -76,7 +78,7 @@
     align-self: center;
     justify-content: center;
     width: 90%;
-    height: 80vh;
+    padding-bottom:40px;
     margin-top: 50px;
 }
 .our-vision-text-container{
@@ -86,7 +88,6 @@
     justify-content: center;
     height: 90%;
     width: 40%;
-    /* background-color: green; */
 }
 .our-vision-text-container h1,p{
     width: 100%;
