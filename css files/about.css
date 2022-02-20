@@ -79,7 +79,7 @@
     justify-content: center;
     width: 90%;
     padding-bottom:40px;
-    margin-top: 50px;
+    margin-top: 50px;   
 }
 .our-vision-text-container{
     display: flex;
@@ -88,6 +88,7 @@
     justify-content: center;
     height: 90%;
     width: 40%;
+    align-self:center;
 }
 .our-vision-text-container h1,p{
     width: 100%;
