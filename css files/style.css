@@ -71,7 +71,7 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.3),transparent ), url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .landpage::after{
@@ -437,7 +437,8 @@ header{
     object-fit: contain;
 }
 .how-does-it-work-section{
-    height: 80vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -478,10 +479,11 @@ header{
 .how-it-works-img-container img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     background-color: pink;
 }
 .learn-more-btn-container{
+    margin-top: 20px;
     height: auto;
     width: 70%;
 }
@@ -839,6 +841,7 @@ header{
     flex-direction: column;
     box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.918);
     background-size: cover;
+    margin-top: 20px;
 }
 .invest-card h1{
     font-family: poppins;
@@ -876,8 +879,6 @@ header{
     color: white;
 }
 .blog-section{
-    /* margin-top: 50px; */
-    height: 80vh;
     width: 90%;
     margin: auto;
     display: flex;
@@ -885,6 +886,8 @@ header{
     justify-content: space-around;
 }
 .blog-header{
+    height: 480px;
+    max-height:auto;
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
