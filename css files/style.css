@@ -895,7 +895,6 @@ header{
 }
 .blog-card{
     height: 480px;
-    max-height:auto;
     width: 40%;
     margin: 10px;
     display: flex;
