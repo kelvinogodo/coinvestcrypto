@@ -11,10 +11,12 @@
     background-color: white;
 }
 .head-image{
-    height: 30vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 30%;
     width: 80%;
-    background-image: url(../images/bg.png);
-    background-position: center;
+    background-image: url(../images/2444379.jpg);
+    background-position: top;
     background-repeat: no-repeat;
     object-fit: contain;
     display: flex;
