@@ -886,8 +886,6 @@ header{
     justify-content: space-around;
 }
 .blog-header{
-    height: 480px;
-    max-height:auto;
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -895,9 +893,9 @@ header{
     text-transform: capitalize;
 }
 .blog-card{
-    height: 90%;
+    height: 480px;
+    max-height:auto;
     width: 40%;
-    /* background-color: black; */
     margin: 10px;
     display: flex;
     align-items: center;
