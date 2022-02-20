@@ -589,11 +589,12 @@ header{
     padding: 30px;
 }
 .video-presentation{
-    width: 80%;
+    width: 100%;
     height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:white;
 }
 
 .service-card-container{
