@@ -27,7 +27,7 @@
     font-family: poppins;
     font-size: 3rem;
     text-transform: capitalize;
-    text-aling:center;
+    text-align:center;
 }
 .about-section p{
     width: 55%;
@@ -78,7 +78,7 @@
     align-self: center;
     justify-content: center;
     width: 90%;
-    margin-top: 30px;   
+    margin-top: 30px;
 }
 .our-vision-text-container{
     display: flex;
@@ -153,7 +153,7 @@
     margin-right: auto;
 }
 @media (min-width : 750px) and (max-width: 900px){
-    
+
     .about-landpage-img{
         width:100%;
     }
@@ -234,7 +234,7 @@
         justify-content: center;
         flex-direction: column;
         cursor: pointer;
-     
+
     }
     .menu-line{
         height: 4px;
@@ -266,7 +266,7 @@
         transition: .5s ease-in-out;
         z-index: 200;
     }
-    
+
     .list-items{
         width: 90%;
         display: flex;
@@ -274,7 +274,7 @@
         justify-content: space-around;
         flex-direction: column;
         height: 60%;
-       
+
     }
     .menu-list li{
         width: 80%;
@@ -284,7 +284,7 @@
         border-bottom: 2px solid rgba(17, 16, 16, 0.794);
         padding-bottom: 10px;
     }
-   
+
     .menu-list a{
         display: flex;
         /* background-color: red; */
@@ -327,7 +327,7 @@
     .navbar{
         display: none;
     }
-    
+
     .about-landpage-img{
         width:100%;
         object-fit: contain;
